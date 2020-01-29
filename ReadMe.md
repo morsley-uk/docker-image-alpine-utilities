@@ -17,3 +17,9 @@ or
 ```
 winpty docker run --it alpine-with-utilities ./bin/sh
 ```
+
+## Push image to Docker Hub
+
+```
+docker push johnmorsley/alpine-with-utilities
+```
