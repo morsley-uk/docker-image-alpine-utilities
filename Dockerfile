@@ -1,7 +1,6 @@
 FROM alpine
 
-MAINTAINER John Morsley
+RUN apk update
+RUN apk add tree
 
-RUN /set-up.sh
-
-#ENTRYPOINT ["./start-up.sh"]
+CMD ["echo", "Hello! :-)"]
