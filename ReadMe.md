@@ -5,7 +5,7 @@ Utilities:
 - Tree
 
 ```
-docker build --tag alpine-with-utilities .
+docker build --tag johnmorsley/alpine-with-utilities .
 ```
 
 ```
