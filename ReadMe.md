@@ -9,13 +9,13 @@ docker build --tag alpine-with-utilities .
 ```
 
 ```
-docker run --it alpine-with-utilities ./bin/sh
+docker run -it alpine-with-utilities ./bin/bash
 ```
 
 or 
 
 ```
-winpty docker run --it alpine-with-utilities ./bin/sh
+winpty docker run -it alpine-with-utilities ./bin/bash
 ```
 
 ## Push image to Docker Hub
